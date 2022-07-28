@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #B6FDD5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.NightPlantsController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="710.0" layoutX="171.0" layoutY="93.0" opacity="0.6" pickOnBounds="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@assets/img/26801plantas.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane cache="true" layoutX="8.0" layoutY="5.0" opacity="0.9" prefHeight="40.0" prefWidth="710.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="105.0" layoutY="3.0" prefHeight="35.0" prefWidth="158.0" text="Nocturnas">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnhome" layoutX="390.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#btnhomeOnMouseClicked" style="-fx-background-color: #FFFFFF;" text="Inicio">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btncarrito" layoutX="455.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#btncarritoOnMouseClicked" style="-fx-background-color: #FFFFFF;" text="Carrito">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <MenuButton fx:id="btncatalogo" layoutX="535.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#btncatalogoOnMouseClicked" style="-fx-background-color: #FFFFFF;" text="Tipo de Plantas">
+               <items>
+                  <MenuItem fx:id="btnacuaticas" mnemonicParsing="false" onAction="#btnacuaticaOnMouseClicked" text="Acuaticas" />
+                  <MenuItem fx:id="btnterrestres" mnemonicParsing="false" onAction="#btnterrestreOnMouseClicked" text="Terrestres" />
+               </items>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+      <Separator layoutX="360.0" layoutY="45.0" orientation="VERTICAL" prefHeight="430.0" />
+      <Pane layoutX="21.0" layoutY="60.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnagregar1" layoutX="252.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar1OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <Button fx:id="btnverPlant1" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver1OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/Epiphyllum.jpg" />
+               </image></ImageView>
+            <Label layoutX="77.0" layoutY="27.0" text="Orquidia noche" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="21.0" layoutY="142.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant2" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver2OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar2" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar2OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/vyr8971.png" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Flor de luna" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="21.0" layoutY="225.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant3" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver3OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar3" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar3OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/magnolia.jpg" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Magnolia noche" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="21.0" layoutY="307.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant4" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver4OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar4" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar4OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/cereusazureus.jpg" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Cereus" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="21.0" layoutY="387.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant5" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver5OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar5" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar5OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Onagra.jpg" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Onagra" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="225.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant8" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver8OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar8" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar8OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/ce0a4cdc0c3cd3a3fec5600aa1f5c801.jpg" />
+               </image></ImageView>
+            <Label layoutX="74.0" layoutY="27.0" text="Trompeta de angel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="142.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant7" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver7OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar7" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar7OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/jazmin.jpg" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Flor de Jazmin" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="60.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant6" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver6OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar6" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar6OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/margarita.jpg" />
+               </image></ImageView>
+            <Label layoutX="73.0" layoutY="23.0" prefHeight="30.0" prefWidth="117.0" text="Margarita chocolate" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="307.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant9" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver9OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar9" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar9OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/d67460546be21e01b75ad95a59e32945.jpg" />
+               </image></ImageView>
+            <Label layoutX="80.0" layoutY="27.0" text="Dama de la noche" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="387.0" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #295751;">
+         <children>
+            <Button fx:id="btnverPlant10" layoutX="183.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnver10OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Ver" />
+            <Button fx:id="btnagregar10" layoutX="253.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnagregar10OnMouseClicked" prefHeight="30.0" prefWidth="60.0" text="Agregar" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/wisteriajapan.jpg" />
+               </image></ImageView>
+            <Label layoutX="79.0" layoutY="27.0" text="Wisteria japonesa" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

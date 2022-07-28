@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintiochoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="256.0" layoutY="20.0" prefHeight="35.0" prefWidth="223.0" text="Trompeta de Angel" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;Step 1&#10;Elige un lugar apropiado para tu planta trompeta de ángel. Es preferible uno a pleno sol, pero estas plantas pueden crecer en una sombra parcial. También asegúrate de que el lugar esté protegido del viento y que esté apartado de las áreas donde juegan los niños y las mascotas.&#10;Step 2&#10;Mezcla abono o fertilizante en la tierra donde vas a plantar tu planta. Rompe los grumos y afloja la tierra por lo menos de 6 (15,24 cm) a 8 (20,32 cm) pulgadas en el sitio de siembra. Si estás sembrando en una maceta, añade una capa de piedras en la parte inferior seguida por una capa de arena para mejorar el drenaje.&#10;&#10;Step 3&#10;Planta las semillas a 1/4 de pulgada (6,4 mm) de profundidad.&#10;&#10;Step 4&#10;Riega las semillas tan pronto las siembres y continúa regándolas regularmente, nunca dejes que la tierra se seque por completo. Las plantas trompeta de ángel disfrutan de mucha humedad. No les permitas permanecer en condiciones de tierra seca por mucho tiempo o empezarán a marchitarse rápidamente.&#10;&#10;Step 5&#10;Fertiliza regularmente. Las plantas trompeta de ángel tienen que fertilizarse cada cuatro semanas con un fertilizante general.&#10;&#10;Step 6&#10;Poda la planta después de que la primera &quot;Y&quot; crezca cerca de la base. Corta el crecimiento viejo y dale la forma que quieras. Los florecimientos aparecerán en el extremo de los tallos, así que planea según esto. Para una profusión de flores, dale la forma de un árbol, con un tallo fuerte y recto en el centro y con la parte superior espesa.&#10;&#10;Genero:Brugmansia; Pers.&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/ce0a4cdc0c3cd3a3fec5600aa1f5c801.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

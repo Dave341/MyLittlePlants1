@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaDiecisieteController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="224.0" layoutY="20.0" prefHeight="35.0" prefWidth="153.0" text="Lirio de Agua" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características y Uso:&#10;La Cala también conocida como Lirio de agua, es una planta con una flor de gran tamaño, que puede ser de varios colores aunque lo más habitual es que sea blanca, su nombre científico es Zantedeschia aethiopica y pertenece a la familia de las Aráceas, procedente de Sudáfrica, una de sus características más importantes es que es habitual su cultivo en zonas próximas a lagunas o estanques, e ahí el nombre de Lirio de agua.&#10;&#10;Su flor está formada por espatas, similares a los pétalos dispuestas en forma de tulipa, que rodean al espádice de color amarillo fuerte, las hojas son de color verde fuerte, también de gran tamaño y con un gran valor ornamental, se trata de plantas que sin ser acuáticas resisten muy bien la humedad, en general requieren de pocos cuidados y se adaptan bien a cualquier zona de clima suave.&#10;&#10;Por su color blanco y por la elegancia de su porte desde antiguo se han identificado con la pureza, de hecho es habitual su inlcusión en la composición de ramos de novia. Además por su gran tamaño pueden resultar ideales para la decoración de jarrones de diseño con una única flor, para crear ambiente en el interior del hogar.&#10;&#10;Cultivo:&#10;Se cultiva principalmente por sus espatas, que son órganos decorativos semejantes a pétalos, que rodean el espádice, es decir, el órgano floral erecto, de color amarillo. Estas espatas aparecen en primavera hasta otoño, agradablemente perfumadas.&#10;&#10;Aunque no siempre fructifica, la planta produce unas bayas, contenidas en el cáliz, de color amarillo pálido. Los productores las cultivan en grandes cantidades porque se utilizan principalmente para la decoración en Pascua y como flor cortada en ramos. La cala es una planta semiacuática, por lo que puede ser cultivada en maceta, manteniéndola parcialmente sumergida en agua. Muy buena para el borde del estanque, con los &quot;pies&quot; en agua. Luz: con el exceso de sol se resiente, especialmente en climas calurosos. Su exposición debe ser de sombra o semisombra.&#10;&#10;Luz&#10;La menor intensidad de la luz en ambientes interiores influye en una menor floración y mayor desarrollo de las hojas, las que por cierto también forman parte de su calidad ornamental.&#10;&#10;Temperaturas&#10;Agradece los climas suaves que no llegan a helar. - Puede soportar unos cuantos grados bajo cero. Si está en maceta, es mejor no correr riesgos y meterla dentro en cuanto surja la primera helada. En zonas donde durante el invierno hay heladas, las plantas sobrevivirán en el exterior, siempre y cuando las macetas estén completamente sumergidas dentro del agua. Sin embargo, el modo más seguro de que sobrevivan durante esta estación es ponerlas en un invernadero o mantenla dentro de casa, en un lugar fresco y, partir de entrada la primavera, situarla en el exterior. Durante el invierno conviene mantenerla a una temperatura mínima de 10ºC para las plantas que han pasado el verano en interior.&#10;&#10;Riego&#10;Riego abundantemente durante la floración, con una disminución paulatina hacia el otoño. Buena planta para principiantes que gustan de regar mucho. La Cala se riega bastante cuando está en crecimiento y en floración, pero después de florecer debes mantenerla completamente seca, es su periodo de reposo. Entonces las hojas se pueden marchitar y es algo normal. Aplica poco a poco más agua cuando aparezca el follaje.&#10;&#10;Abonado&#10;El suelo debe ser normal de jardín, enriquecido con fertilizante orgánico. Abone cada 15 días en época de floración. Aplique un grueso acolchado en la base de la planta durante el invierno en las zonas de inviernos secos y fríos. Cortar las flores marchitas para favorecer la floración.&#10;&#10;Plagas y Enfermedades:&#10;Plagas&#10;No es una planta que se vea afectada por demasiadas plagas; en ocasiones, pulgones. La humedad que requiere el cultivo de la cala atrae a caracoles y babosas. En caso de que éstos aparezcan aplique algún molusquicida o captura manual.&#10;&#10;Enfermedades&#10;Manchas en las hojas&#10;Varias especies de hongos pueden producir en las hojas manchas de diferente aspecto y tamaño. Es frecuente el ataque de Phyllosticta y Colletotrichum. Las hojas más infectadas se deben cortar y quemar, siendo raro tener que recurrir a fungicidas.&#10;&#10;Podedumbre de la Raíz&#10;Se manifiesta por el amarilleo y la marchitez de las hojas inferiores, o sea, las más viejas. Finalmente muere la planta. Si la planta llega a florecer, las flores suelen quedar deformes.&#10;&#10;El hongo causante es Phytophthora richardiae u otros hongos del suelo como Rhizoctonia, Sclerotinia sclerotiorum, etc.&#10;&#10;Bacteriosis&#10;Es una enfermedad causada por bacterias. Se inicia con el amarilleo de las hojas, seguido de una necrosis lenta de dichas hojas. Podredumbre blanda de olor fétido en los bulbos.&#10;&#10;Arrancar y destruir las plantas enfermas, cuidando de no dejar restos de raíces.&#10;&#10;Virosis&#10;Puede ser atacada por virus. Los síntomas son el desarrollo raquítico de la planta con hojas pequeñas. Puede presentarse también en forma de &quot;mosaico&quot; o jaspeado con manchas o estrías de color verde pálido o amarillo en las hojas.&#10;&#10;Eliminar las plantas enfermas y tratar las sanas contra los pulgones, que son los que propagan el virus." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/LiriodeAgua.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

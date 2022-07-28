@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaTreceController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="240.0" layoutY="20.0" prefHeight="35.0" prefWidth="186.0" text="Lechuga de Mar" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características:&#10;Hay una gran variedad de lechugas de mar, que podemos distinguir dentro del género Ulva lactuca, este tipo de lechuga está en forma de alga y es completamente comestible y además de que posee muchísimos beneficios para nuestra salud y nuestro aspecto. La lechuga de mar las conseguiremos en diversos mercados que dependerá según la aplicación de que le vayamos a dar, ya sea fines estéticos, para su consumo o incluso medicinales, aunque no es tan popular su consumo en las comidas, los países donde esta se desarrolla si que la saben aprovechar en platillos exquisitos.&#10;&#10;Son algas comestibles que crecen en aguas de hasta 20 metros de profundidad, se les suele encontrar naturalmente en países como Gran Bretaña, Irlanda, Escandinavia, China, y, por supuesto, Japón. Ulva Lactuca Lamilla, también es conocido por su contenido de vitaminas C y vitamina, D. Sus diversas propiedades curativas y regeneradoras se utilizan en varios artículos de cosméticos y muchas ciudades costeras se benefician de su abundancia y se utilizan como fertilizantes.&#10;&#10;Principalmente tiene propiedades benéficas para el consumo humano, tales como vitaminas C y vitaminas D.&#10;&#10;Por estas mismas propiedades que posee su acción en las superficies capilares y en la misma piel realizará funciones regenerativa y de curación en superficies donde se aplica, por lo que las industrias crearon cosméticos como máscaras, hidratantes, baño de pelo, champú y otros para proporcionar buenos resultados para el consumidor. También tienen propiedades espesantes que dan un uso interesante en la industria alimenticia. (Ver Articuo: Pulpo Rosa)&#10;&#10;La lechuga mar tiene una concentración de yodo en buenas cantidades, las cuales son utilizadas en productos de adelgazamiento. La gran cantidad de nutrientes que posee esta lechuga de mar, le han dado reconocimiento importante en la tierra, compactados en abono para el cultivo de diferentes variedades, proporcionando nutrientes de formas exponenciales que harán el desarrollo de nuestras tierras en un ambiente totalmente próspero.&#10;&#10;Son hojas verdes laminar, foliáceos, lobuladas, formadas por 2 capas de células, fijadas al sustrato por rizoides que crecen como expansiones de las células basales del tallo. Puede alcanzar una longitud de 1 m, con un borde más o menos redondeado, a veces dividido. (gametofitos masculinos) Se distinguen de los productores de gametos femeninos por la tonalidad de los márgenes de la película: la primera verde y verde amarillento oscuro en segundos.&#10;&#10;En la zona basal puede presentar unas texturas gruesa más oscuras debido al agrupamiento de rizoides. Color verde claro o oscuro. Para una determinación correcta, es necesario observarlo bajo un microscopio; En esto usted puede ver cómo sus células están dispuestas en líneas ligeramente curvas, todas con un pirenoide en general, y que las células más altas que emiten rizoides son del mismo tamaño de aquellas que no las emiten.&#10;&#10;Reproducción:&#10;Puede multiplicarse vegetativamente por fragmentación y sexualmente a través de planogamia. La planogamia se reproduce a través de células germinales móviles, tanto masculinas como femeninas, las cuales tienen banderas que proporcionan esta movilidad en el movimiento de las células germinales, se habla de planogamia y las células germinales pueden ser iguales (isogam) o de diferente tamaño (anisogamia).&#10;&#10;Anisogamia (heterogamia), varias células germinales de tamaño o morfología interna (anisogamia morfológica), generalmente acompañadas por una reducción de la célula hangam y con poca reserva, la lechuga de mar presenta anisogamia algo pronunciada.&#10;&#10;Informacion Nutricional:&#10;La lechuga de mar es un alimento con bajos niveles de sodio, ideal para personas con problemas cardiacos, con hipertensión y con sobrepeso, y generalmente se aplica a la dieta baja en sal. Es una rica fuente de proteínas, proporcionará nutrientes en diversos campos.&#10;&#10;Tiene el doble de vitamina A que el repollo, y también contiene ácido fólico y vitamina C, que, aunque pueda parecer una mentira, tiene 10 veces más que la naranja. Todas estas vitaminas en acción llevan a cabo desintoxicación, antioxidantes y otras actividades. Contiene fibra en grandes cantidades, hará que su sistema digestivo sea más fácil. También contiene yodo, calcio, sodio, magnesio y hierro.&#10;&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="201.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Lechugademar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

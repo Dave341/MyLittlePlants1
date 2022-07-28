@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaUnoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="253.0" layoutY="20.0" prefHeight="17.0" prefWidth="95.0" text="Sandia" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Cuidados:&#10; - Suelo&#10;En cuanto al suelo para el cultivo de sandía usa tierra &#10;rica en materia orgánica, suelos que sean arcillosos o &#10;franco-arenosos.&#10;-Clima, luz y ubicación&#10;Esta planta es sensible a temperaturas muy altas, pero&#10; necesita mucha luz, es resistente a sequías.&#10;-Riego&#10;El riego en la planta de sandía es muy importante&#10; en las primeras semanas de cultivo.&#10;-Poda&#10;Otro cuidado básico para la planta de sandíaes la poda y &#10;limpieza. Cuando veas hojas secas o marchitas hay que&#10; eliminarlas, al igual si hay hojas &#10;enfermas.&#10;&#10;como cuidadar y cultivar una sandia?&#10;1.-Clima: La sandía es muy poco exigente el clima&#10;&#10;2.-Suelo: Mantener el suelo en óptimas condiciones&#10; para garantizar el crecimiento de la sandía se realiza &#10;mediante una técnica conocida como &quot;acolchado&quot;.&#10;&#10;3.-Riego: El riego por goteo es el sistema más extendido.&#10;&#10;4.-Poda: La principal función de la poda en la sandía &#10;es la de dar forma al desarrollo de la planta.&#10;.- Abono: Elige un fertilizante para el abonado de la &#10;sandía, optando por fertilizantes básicos o fertilizantes &#10;líquidos&#10;&#10;6. Cultivo: El mejor momento para la plantación de la &#10;sandía es justo después del inverno, así se desarrollará&#10; mejor en los meses de más calor.&#10;°Plantación en semillero. Haz 3 o 4 agujeros y coloca &#10;en cada uno una semilla, siempre dejando unos&#10; centímetros de distancia entre cada una para que se &#10;puedan desarrollar mejor sus raíces.&#10;°Plantación directa sobre el terreno de cultivo.&#10; Esta técnica precisa de mucha habilidad, ya que la&#10; planta se encuentra en un momento delicado del&#10; desarrollo.&#10;&#10;genero: citrullus" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="193.0" layoutX="12.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/Sandia.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="423.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="74.0" layoutY="361.0" prefHeight="27.0" prefWidth="95.0" text="Precio: 180" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

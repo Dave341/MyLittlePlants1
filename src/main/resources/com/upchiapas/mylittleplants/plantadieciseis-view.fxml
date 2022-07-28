@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaDieciseisController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="262.0" layoutY="20.0" prefHeight="35.0" prefWidth="77.0" text="Papiro" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características:&#10;Cyperus papyrus es una planta originaria de la cuenca del mar Mediterráneo, que alcanzó una gran difusión en Egipto, donde crece en las orillas del río Nilo y su delta. Era utilizado para elaborar los antiguos papiros manuscritos. En la actualidad, destruido por el hombre, su cantidad en el Nilo ha disminuido sensiblemente en los últimos siglos, debido a que obstruía las vías fluviales y los canales de riego.&#10;&#10;Las plantas forman matorrales densos, que pueden alcanzar de tres a cinco metros de longitud, y hasta seis metros a su ápice. Vive sobre terrenos arenosos y colmados de humedad, con abundante radiación solar durante todo el año, pudiendo tener el pie de su tronco totalmente sumergido en el agua.&#10;&#10;Tiene largos troncos (culmos) granizos, cuya sección triangular es de un grosor de varios centímetros en los ejemplares más grandes. Estos falsos tallos están coronados por un penacho liviano y plumoso en abanico, formado exclusivamente por hojas, o por tallos que llevan espigas; los nuevos brotes surgen siempre del mismo segmento. Las hojas son de color verde jade, largas, delgadas y firmes. Las espigas, marrones, de diez a treinta cm de largo, están rodeadas de brácteas muy similares a las hojas.&#10;&#10;El papiro se multiplica principalmente a través de sus rizomas, de los que brotan nuevos troncos a intervalos regulares. Produce también semillas que pueden ser transportadas por el viento, pero esta forma de reproducción es de menor importancia. Tolera temperaturas de 20 a 33 °C, y pH entre 6 y 8,5. Bioquímicamente, realiza su síntesis de carbohidratos por la más eficiente vía de 4 carbonos.&#10;&#10;En las riberas cubiertas de papiros, solo los animales grandes y pesados —como elefantes o hipopótamos— podían abrirse camino, y los demás seres utilizaban estas trochas para transitar." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/papiroegipcio.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

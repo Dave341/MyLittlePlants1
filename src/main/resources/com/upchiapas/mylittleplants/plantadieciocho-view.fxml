@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaDieciochoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="262.0" layoutY="20.0" prefHeight="35.0" prefWidth="190.0" text="Lenteja de Agua" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características:&#10;La lemna minor o lenteja de agua es una planta acuática de flotación libre de tamaño reducido. Flota en la superficie del agua, con hasta 4 frondes cohesionadas, frondes planas, de elípticas a lineales, simétricas o asimétricas, pudiendo llegar a medir entre 1-5 cm de largo y 0.50 mm-3 mm de ancho. Estas frondes son redondeadas en el ápice.&#10;&#10;Sus hojas son oblongas, de color verde brillante, constituidas por 3 nervios acentuados, llegan a medir hasta 4 cm y cada hoja tiene su propia raíz que cuelga en el agua.&#10;&#10;Tiene la peculiaridad de que sus hojas se sumergen para poder florecer, aunque este evento sucede raramente, y cuando pasa llegan a medir 1 mm de diámetro.&#10;&#10;Es una planta monoica que produce flores unisexuales. En este sentido, las plantas masculinas están compuestas por un solo estambre, mientras que las femeninas las constituyen un pistilo compuesto por un solo carpelo.&#10;&#10;Las semillas de esta planta miden entre 1 y 8 mm. &#10;&#10;Cuidados:&#10;1-Temperatura: no resiste las temperaturas extremadamente bajas. En este sentido, lo ideal es cultivarla en temperaturas que oscilan  entre los 10°C a 30°C.&#10;2-Luz: estas plantas flotantes se adaptan a cualquier iluminación; sin embargo cuando están en pleno desarrollo necesitan de mucha luz durante gran parte del día, unas 12 a 14 horas.&#10;3-Agua: requiere agua neutra, lo más óptimo es que tenga un pH de entre 6 y 7,5. Aunque soporta niveles de pH muy por debajo de lo normal.&#10;4-Sustrato y abono: es una planta que no requiere sustrato, por ser una planta acuática flotante de raíces libres.&#10;&#10;Plagas y enfermedades:&#10;Entre las plagas y enfermedades más comunes que afectan a la planta lenteja de agua tenemos:&#10;&#10;1-Pulgón negro: este se instala en las hojas y los tallos, en donde extraen la savia de la planta. Uno de los síntomas más notables es la aparición de partes secas de la planta.&#10;2-Gorgojos: lo que hacen es poner huevos en las partes jóvenes de la planta y a las dos semanas salen las larvas que, posteriormente, se desplazan hacia la vaina donde se alimentan.&#10;3-Hongos: estos producen la marchitez vascular, lo cual hace que la planta muera." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/lemnalenteja.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

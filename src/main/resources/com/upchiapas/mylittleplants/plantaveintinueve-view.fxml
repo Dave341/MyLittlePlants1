@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintinueveController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="256.0" layoutY="20.0" prefHeight="35.0" prefWidth="232.0" text="La dama de la noche" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;TIERRA Y RIEGO DE LA DAMA DE NOCHE&#10;Este arbusto tiene gran capacidad para adaptarse a casi todos las tierras. Esto le da ventaja de supervivencia. Los requisitos son tener una tierra rica en nutrientes y con un buen drenaje.&#10;&#10;En cuanto al riego, hay que gastar cuidado con no regarla en exceso. El encharcamiento puede ser fatal para el desarrollo de enfermedades y la aparición de hojas amarillas.&#10;&#10;PODA Y FERTILIZANTE DE LA DAMA DE NOCHE&#10;Este arbusto necesita también algunas tareas de mantenimiento como es la poda. Se tiene que realizar cuando se tengan algunas hojas estropeadas.&#10;&#10;UBICACIÓN DE LA DAMA DE NOCHE&#10;Hay que buscar una buena ubicación para este galán de noche para que se encuentre siempre en buen estado. Un sitio adecuado es aquel que está protegido del frío y las fuertes rachas de viento. No se debe colocar en la intemperie, puesto que estará expuesta a los bajones de temperatura en la llegada del otoño e invierno. Las heladas les afectan demasiado y no sobreviven.&#10;&#10;Genero:Cestrum" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/d67460546be21e01b75ad95a59e32945.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

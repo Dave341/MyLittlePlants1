@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintiunoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="193.0" layoutY="20.0" prefHeight="35.0" prefWidth="214.0" text="Orquidia de Noche" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;La temperatura&#10;Es uno de los parámetros más importantes para mantener nuestras plantas en crecimiento y floreciendo todos los años. Está claro que en invierno las temperaturas son más bajas que en verano y que por las noches las temperaturas pueden bajar considerablemente dependiendo de la zona en la que nos encontremos.&#10;&#10;La luminosidad&#10;Respecto a la luminosidad las orquídeas también las dividiremos en tres grupos:&#10;&#10;Las que soportan el sol directo,&#10;Las que tienen que estar un poco protegidas del solo en periodos de 10 – 14 horas al día,&#10;Las que siempre tienen que estar protegidas del sol directo.&#10;&#10;El riego&#10;Si usamos corteza como sustrato, está nos indicará cuando tenemos que regar cuando la capa de la superficie se encuentre seca.&#10;&#10;La humedad&#10;Las orquídeas en invierno requieren humedades del 40 – 60 %, en invierno y verano hasta un 70 % si es posible.&#10;&#10;&#10;Genero:Bulbophyllum&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Epiphyllum.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintidosController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="230.0" layoutY="20.0" prefHeight="35.0" prefWidth="141.0" text="Flor de Luna" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;Cuidado de flores de luna&#10;Riegue las plantas pequeñas con frecuencia y continúe proporcionando agua a medida que crecen las enredaderas de flor de luna, especialmente en casos de sequía o calor extremo. Fertilice con un fertilizante con alto contenido de fósforo a la mitad de su concentración para estimular más floraciones.&#10;&#10;Cómo plantar flores de luna&#10;En áreas más frías, plante flores de luna una vez que el suelo haya alcanzado una temperatura de 60 a 70 grados Fahrenheit.&#10;&#10;Condiciones de crecimiento de las flores de luna&#10;Las flores de luna no necesitan mucho espacio en el suelo, ya que les encanta crecer hacia arriba. Si proporciona un soporte para las enredaderas, como un enrejado, las enredaderas se enredarán a su alrededor y crecerán fácilmente hasta 20 pies (o incluso más). &#10;&#10;Genero:Ipomoea&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/vyr8971.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaDiecinueveController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="182.0" layoutY="20.0" prefHeight="35.0" prefWidth="310.0" text="Myriophyllum verticillatum" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características:&#10;Características de la myriophyllum verticillatum&#10;Se caracteriza por tallos con verticilos las cuales puedes distinguir que son más largas que sus entrenudos, sus espigas se ven por encima del aire donde el polen puede viajar por medio del aire con completa libertad.&#10;&#10;Estas flores en forma de espiga suelen ser de color amarillo con un toque verdoso.&#10;Esto en cuanto a sus flores femeninas ya que las flores masculinas crecerán por debajo del agua.&#10;Es una planta que puede florecer durante el verano o durante la primavera.&#10;Largos tallos ramosos que pueden medir hasta tres medros.&#10;Poseen generalmente verticilos de 5 hojas, con alrededor de 30 segmentos filiformes.&#10;Por lo general florece al finalizar la primavera y en el transcurso del verano.&#10;&#10;Usos:&#10;La Myriophyllum Verticillatum es una planta utilizada como muchas otras de su especie para estanques y acuarios, por sus propiedades oxigenantes, sin embargo, debes considerar que su rápido crecimiento debe mantenerse bajo control.&#10;&#10;Es una planta que hará lucir bien a tu jardín, estanque o acuario, brindándole un toque muy natural de una forma muy sencilla.&#10;&#10;Cuidados:&#10;Son plantas que no requieren muchos cuidados además de mantenerlas en un sitio suficientemente húmedo sobre todo si planeas tenerlas en una maceta, el tipo de suelo o abono no tiene mucha importancia en lo que respecta a esta planta acuática, ya que es muy adaptable y puedes ponerla en todo tipo de estanques, acuarios o en tu jardín." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/myriophyllumverticillatum.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

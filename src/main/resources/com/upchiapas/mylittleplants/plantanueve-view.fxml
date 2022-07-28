@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaNueveController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="240.0" layoutY="20.0" prefHeight="35.0" prefWidth="121.0" text="Mango" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar un mango?&#10;&#10;1¿Dónde debe estar localizado y expuesto el mango? &#10;Para poder tener un buen cultivo del mango, es muy &#10;importante e imprescindible el darle un lugar en el cual le&#10; de principalmente el sol y que sea un lugar el cual este&#10; bien ventilado. &#10;&#10;2.¿Cuándo y cómo debemos plantar el mango?&#10;El mango lo podemos plantar desde semillas en&#10; temporada de verano hasta el otoño. Se debe sacar&#10; la semilla de la cáscara y plantarlo sobre la tierra&#10;con la parte más desarrollada hacia arriba.&#10;&#10;3.¿Cómo abonar el mango?&#10;Los mangos se adaptan bien a cualquier tipo de terreno,&#10; pero en cualquier caso, debe tener un buen drenaje y&#10; un pH entre 5.5 y 7.5. &#10;&#10;4.¿Cómo debemos regar el mango?&#10;Tenemos que procurar regarlo siempre y cuando el&#10; suelo no esté húmedo.&#10;&#10;5.¿Qué plagas podemos encontrar en el árbol &#10;del mango?&#10;&#10;Entre todas las plagas que podemos tener en los&#10; mangos, una de las más destacadas es la antracnosis,&#10; ataca a las partes más visibles de la planta, produciendo&#10; manchas marrones en las hojas. Esto produce que&#10; se caigan las hojas o el fruto.&#10;&#10;Otras plagas que existen y no son menos&#10; importantes son:&#10;Roña, produce grietas en los frutos.&#10;Seca, vuelve la hoja amarilla.&#10;Mancha Bacteriana, vuelve negra las hojas y deforma&#10; el fruto.&#10;&#10;Genero: Mangifera&#10;" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="193.0" layoutX="12.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/mango.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="160.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

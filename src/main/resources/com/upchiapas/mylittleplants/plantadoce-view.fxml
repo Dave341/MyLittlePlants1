@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaDoceController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="240.0" layoutY="20.0" prefHeight="35.0" prefWidth="200.0" text="Lechuga de Agua" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características:&#10;La lechuga de agua está caracterizada por sus bordes verdes las cuales destacan más cuando alcanza un mayor tamaño de longitud el cual en promedio es de 14 cm; tiene la capacidad de flotar sobre la superficie de las corrientes que existen en el agua gracias a sus raíces que tiene gran resistencia.&#10;&#10;Sus hojas son delicadas y con una textura suave, esto se debe por la humedad que posee la lechuga de agua; también estas hojas llegan a ser densas de tal manera que puede formar una roseta, siendo esta una razón por la que esta planta es ideal para la decoración en los acuarios.&#10;&#10;Las hojas se encuentran cubiertas por pelos cortos estableciendo una estructura que adopta la forma de  una cesta ondulada lo que permite su capacidad de flotación; en el caso de sus flores son dioicas y están escondidas entre las hojas debido a que se desarrollan en el centro.&#10;&#10;Entre la temporada de Primavera y Verano se presenta los brotes de las flores, se caracterizan por ser de un color blanco; para la multiplicación de esta planta se debe utilizar semillas y cultivarlas, sin embargo también puede reproducirse asexualmente.&#10;&#10;Cuidados:&#10;Una de las características de la lechuga de agua es que tiene propiedades de plantas invasoras, por lo que si se va a realizar un cultivo de esta especie se debe tener en cuenta este factor de modo que se cumpla con sus cuidados adecuados que le permita crecer sin problemas.&#10;&#10;Así mismo en su cultivo se debe tomar en consideración la combinación con otras especies, debido a sus propiedades y beneficios ornamentales se tiene la posibilidad de cultivarlas junto a otras plantas que permita adoptar una decoración más sutil y natural.&#10;&#10;Debido a esto es necesario tener en cuenta algunos cuidados de modo que el desarrollo de esta especie óptimo y pueda aplicarse en diferentes decoraciones; es por ello que a continuación se indican los factores que se tiene que prestar atención en el momento del cultivo y conservación de la planta:&#10;&#10;Ubicación&#10;1-Puede ubicarse en estanques, acuarios, entre otros.&#10;2-No requiere de un abono en particular debido a que se nutre del agua donde se encuentre.&#10;3-Es necesario que su ubicación sea amplia debido a su capacidad de esparcirse en la zona recordando que tiene propiedades invasoras.&#10;4-Si no se coloca en un lugar con espacio se tiene la posibilidad que se limite el oxígeno del agua.&#10;5-Por lo que perjudica gravemente a los seres vivos que se encuentran debajo del agua.&#10;6-No se debe emplear herbicidas acuáticos para combatir su expansión, ya que esto no tiene algún efecto en la planta.&#10;7-Se recomienda ubicar en zonas con semisombra y al aire libre.&#10;8-Así mismo se tiene la posibilidad de cultivarse en tierra la cual debe estar compuesta con muchas materias orgánicas y nutrientes.&#10;&#10;Agua&#10;1-En el caso que se cultiva en jardines acuáticos o estanques se requiere que la corriente de agua conserve un ritmo lento pero solo en la introducción.&#10;2-Después de un cierto período de tiempo se puede aumentar la velocidad del filtro.&#10;3-Si se encuentra al aire libre puede crecer en aguas tranquilas.&#10;4-Deben presentar un grado de acidez por lo que se necesita de un pH 6 a 7.&#10;5-La dureza de agua que debe disponer debe encontrarse entre 5 a 20 KH.&#10;&#10;Temperatura:&#10;1-Esta especie no tolera las bajas temperaturas.&#10;2-Durante la temporada de Verano el agua en que se encuentre debe estar sobre los 21 °C.&#10;3-La temperatura mínima que la lechuga de agua puede soportar es de 15 °C.&#10;4-Se recomienda que durante su etapa de desarrollo se encuentre entre los 22 °C a los 30 °C.&#10;&#10;Luz:&#10;1-La lechuga de agua requiere de mucha luz para su desarrollo.&#10;2-Si se encuentra en un acuario o en un invernadero se le debe aplicar mucha iluminación.&#10;3-En el caso que esté al aire libre se debe dejar en una zona con semisombra pero que reciba la iluminación correspondiente.&#10;4-Al mediodía necesita de una zona con sombra para evitar que sus hojas se quemen.&#10;5-Su ciclo de luz básico consiste entre 10 a 12 horas de rayos solares de manera que la planta se puede adaptar a las condiciones que se encuentre.&#10;&#10;Humedad:&#10;1-Si se cultiva en tierra debe presentar altos índices de humedad.&#10;2-En el caso que no se tenga esta condición se va a reflejar problemas en el crecimiento de la planta.&#10;3-Los brotes de las flores se desarrolla si dispone de un nivel de humedad adecuado.&#10;4-En el caso que se encuentre en un estanque se debe colocar una tapa con la finalidad que se retenga la humedad." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="201.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Lechugadeagua.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

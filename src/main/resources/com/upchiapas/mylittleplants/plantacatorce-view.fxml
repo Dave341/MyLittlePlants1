@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaCatorceController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="240.0" layoutY="20.0" prefHeight="35.0" prefWidth="184.0" text="Jancito de Agua" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Descripcion:&#10;Tallo vegetativo sumamente corto; hojas en rosetas, ascendentes a extendidas; pecíolos cortos, hinchados (bulbosos), con tejido aerenquimatoso; con dimorfismo foliar al crecer agrupadas: hojas puramente ascendentes y pecíolos elongados y menos hinchados; láminas de 2 a 16 cm. Inflorescencia: espiga; flores moradas, y una mancha amarilla en el lóbulo superior del perianto; fruto: cápsula de 1,5 cm&#10;&#10;¿como cuidarla?&#10;El jacinto de agua se planta en una uenca, un estanque, una pecera o acuario, es de crecimiento rapido.&#10;&#10;Necesita agua tranquila, blanda y califa, arededor de 15°C, incluso 18°C y rica en nitratos.&#10;&#10;utiliza un suelo fertil y rico en nutrientes. Un suelo arcilloso y pesado es apropiado.&#10;&#10;El jacinto de agua tambien puede cultivarse en interiores, siempre que se le de mucha luz.&#10;&#10;Habitad:&#10;Habita en cuerpos de agua dulce como los son: ríos, lagos, charcas y embalses de los trópicos y subtrópicos localizados a latitudes no mayores de 40°N y 45°S. Temperaturas menores de 0 °C afectan su crecimiento al igual que alta salinidad. Sin embargo, cuerpos de agua eutroficados que contienen niveles altos de nitrógeno, fósforo, potasio al igual que aguas contaminada con metales pesados como cobre y plomo no limitan su crecimiento ya que puede anclarse y enraizar en suelos saturados de agua por un corto periodo.&#10;&#10;Después de las grandes crecidas de los ríos, forma los camalotales o camalotes, especie de islas flotantes con sus raíces entrelazadas. Se mantienen a flote, gracias a los pecíolos de las hojas, que son esponjosos y están engrosados; y poseen un tejido con celdas o espacios amplios llenos de aire que le permiten a la planta mantenerse en la superficie. A su paso muchas veces arrastran y transportan animales y plantas variados.&#10;&#10;Genero: Eichhornia&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="206.0" fitWidth="205.0" layoutY="-1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/jacintodeagua.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

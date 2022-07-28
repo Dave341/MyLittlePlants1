@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.NewLoginController">
+   <children>
+      <AnchorPane layoutX="185.0" layoutY="33.0" opacity="0.95" prefHeight="410.0" prefWidth="350.0" style="-fx-background-color: #020221; -fx-background-radius: 20px;">
+         <children>
+            <TextField fx:id="name" layoutX="61.0" layoutY="76.0" prefHeight="35.0" prefWidth="226.0" promptText="Name" style="-fx-background-radius: 20px; -fx-background-color: FFB300;" />
+            <TextField fx:id="userName" layoutX="62.0" layoutY="123.0" prefHeight="35.0" prefWidth="226.0" promptText="User Name" style="-fx-background-radius: 20px; -fx-background-color: FFB300;" />
+            <TextField fx:id="mail" layoutX="62.0" layoutY="171.0" prefHeight="35.0" prefWidth="226.0" promptText="Mail" style="-fx-background-radius: 20px; -fx-background-color: FFB300;" />
+            <PasswordField fx:id="password" layoutX="63.0" layoutY="220.0" prefHeight="35.0" prefWidth="226.0" promptText="Password" style="-fx-background-radius: 20px; -fx-background-color: FFB300;" />
+            <Button fx:id="btncreateUser" layoutX="33.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#btncreateUserOnMouseClicked" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #042352; -fx-background-radius: 8px;" text="Crear Usuario" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnexit" layoutX="204.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#btnexitOnMouseClicked" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #042352; -fx-background-radius: 8px;" text="salir" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btniniciarSesion" layoutX="116.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#btnloginOnMouseClicked" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #042352; -fx-background-radius: 8px;" text="Iniciar Sesion" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="17.0" layoutY="13.0" text="Ingrese los datos de la nueva cuenta :)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="78.0" fitWidth="136.0" layoutX="564.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/logo.png" />
+         </image>
+         <effect>
+            <Reflection fraction="0.39" />
+         </effect>
+      </ImageView>
+      <Circle fill="#ffb300" layoutX="87.0" layoutY="253.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="100.0" layoutY="272.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="607.0" layoutY="240.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="632.0" layoutY="220.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="607.0" layoutY="404.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="624.0" layoutY="379.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="621.0" layoutY="399.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="645.0" layoutY="365.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="93.0" layoutY="131.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="110.0" layoutY="106.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="107.0" layoutY="126.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="131.0" layoutY="92.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ffb300" layoutX="85.0" layoutY="412.0" radius="52.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ef6c00" layoutX="112.0" layoutY="399.0" radius="52.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label layoutX="26.0" layoutY="14.0" text="My Little Plant">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

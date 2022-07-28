@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaQuinceController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="169.0" layoutY="20.0" prefHeight="35.0" prefWidth="263.0" text="Neufar Blanca Europea" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Clasificacion&#10;1-Nombre científico o latino: Nymphaea alba&#10;2-Nombre común o vulgar: Nenúfar blanco, Rosa de amor, Rosa de Venus, Escudete de río, Golfán blanco, Adarga, Aguapé branco, Azucena de agua, Ninfa blanca, Ninfea blanca.&#10;&#10;Caracteristicas:&#10;1-Origen: Europa sur y norte de Africa.&#10;Hierba acuática, perenne y con rizoma rastrero, carnoso y robusto.&#10;2-Las hojas son en forma de corazón o redondeadas.&#10;3-Las hojas sumergidas son de color verde claro y traslúcido, son finas y con los bordes doblado hacia dentro.&#10;4-Las hojas emergidas se extienden sobre la superficie del agua son robustas y con su cara superior revestida de cera que la vuelve resistente e impermeable. Son verde oscuras y rojas por la parte inferior.&#10;5-Flores blancas, muy grandes, de 10 a 20 cm, olorosas, flotantes, largamente pedunculadas, con numerosos pétalos patentes; sépalos blancos por encima.&#10;6-Las semillas pueden usarse como sucedáneo del café y las flores pueden conservarse en salmuera. Los tallos subterráneos son usados a veces como alimento en el norte de Europa.&#10;7-Tiene propiedades medicinales como anafrodisíaco, calmante y parasimpaticolítico. Antiguamente se usaba en conventos y seminarios en forma de infusión como antiafrodisíaca. Puede usarse en ninfomanías y erectísmo genital.&#10;8-Hermosa planta para cualquier jardín con zona acuática.&#10;9-Sus anchas hojas proveen sombra a los peces y reduce la aparición de algas.&#10;&#10;Requerimiento de cultivo:&#10;1-Necesita una posición muy soleada y una profundidad de agua entre 40-100 cm.&#10;2-Aguas remansadas o con poco movimiento, de hasta 2 m de profundidad.&#10;3-El material del fondo debe de ser mixto con arena, arcilla y turba.&#10;4-Retirar las hojas muertas para evitar la polución del agua.&#10;5-Requiere de un periodo de descanso en invierno a 15°C aproximadamente. Hay que dividirlas cada 3-4 años.&#10;&#10;Plagas y enfermedades de los Nenúfares:&#10;1-Pulgón del Nenúfar (Rhopalosiphum nymphaeae). 2-Suele bastar una pulverización fuerte de agua sobre las hojas para dejarlos indefensos a la predación de los peces del estanque, o retirar a mano si el estanque es pequeño. Cuidado con aplicar plaguicidas que sean tóxicos para los peces, ranas, tortugas y demás fauna acuática.&#10;3-El escarabajo Galerucella nymphaeae se parece a la Galeruca del Olmo. Roe las hojas.&#10;4-Diversos hongos de los géneros Alternaria, Cercospora, Gloeosporium, Phyllosticta y otros que causan manchas, de tamaños diversos, a veces redondeadas y marrones.&#10;5-Hongo Pythium, pudre las raíces. Lo único que se puede hacer es desinfectar el suelo o usar substratos limpios y sanos." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="206.0" fitWidth="205.0" layoutY="-1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Nymphaea.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

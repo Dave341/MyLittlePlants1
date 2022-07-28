@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B6FDD5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.HomeController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="710.0" layoutX="18.0" layoutY="27.0" opacity="0.6" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@assets/img/26792plantas.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="84.0" prefWidth="710.0" style="-fx-background-color: #020221;">
+         <children>
+            <Button fx:id="btnbuscar" layoutX="484.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#btnbuscarOnMouseClicked" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #042352; -fx-background-radius: 20px;" text="Buscar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button fx:id="btncerrarSesion" layoutX="586.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#btncerrarSesionOnMouseClicked" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #042352; -fx-background-radius: 20px;" text="Cerrar Sesion" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect></Button>
+            <Label layoutX="125.0" layoutY="27.0" text="My Little Plant" textFill="#34c96b">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <MenuButton fx:id="btncatalogo" layoutX="151.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#btncatalogoOnMouseClicked" prefHeight="40.0" prefWidth="125.0" style="-fx-background-color: #FFC300; -fx-background-radius: 20px;" text="Catalogo">
+        <items>
+            <MenuItem fx:id="acuaticas" mnemonicParsing="false" onAction="#btnacuaticasOnMouseCliecked" text="Acuaticas" />
+            <MenuItem fx:id="btnterrestres" mnemonicParsing="false" onAction="#btnterrestreOnMouseCliecked" text="Terrestres" />
+            <MenuItem fx:id="btnnocturnas" mnemonicParsing="false" onAction="#btnnocturnasOnMouseCliecked" text="Nocturnas" />
+        </items>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </MenuButton>
+      <Button fx:id="btncarroProductos" layoutX="292.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#btncarritoOnMouseClicked" prefHeight="40.0" prefWidth="125.0" style="-fx-background-radius: 20px; -fx-background-color: #FFC300;" text="Carrito">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnherramientas" layoutX="435.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#btnherramientasOnMouseClicked" prefHeight="40.0" prefWidth="125.0" style="-fx-background-radius: 20px; -fx-background-color: #FFC300;" text="Herramientas">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="75.0" fitWidth="121.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/img/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

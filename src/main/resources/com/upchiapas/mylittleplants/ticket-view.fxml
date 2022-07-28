@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="496.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.TicketController">
+   <children>
+      <AnchorPane prefHeight="60.0" prefWidth="522.0" style="-fx-background-color: #000;">
+         <children>
+            <Button fx:id="btnhome" layoutX="303.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#btnhomeOnMauseClicked" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: #000;" text="Home" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <MenuButton fx:id="btnopcion" layoutX="406.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#btnopcionOnMouseClicked" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #000;" text="Opciones" textFill="#06d08c">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#btncerrarSecion" text="Cerrar Sesion" />
+              </items>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+      <ImageView cache="true" fitHeight="110.0" fitWidth="190.0" layoutX="167.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/logo.png" />
+         </image>
+         <effect>
+            <Reflection fraction="0.37" topOpacity="0.18" />
+         </effect>
+      </ImageView>
+      <Label layoutX="52.0" layoutY="229.0" prefHeight="51.0" prefWidth="419.0" text="¡¡Gracias por tu compra!!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="305.0" prefHeight="43.0" prefWidth="178.0" text="Vuelva Pronto." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaTreintaController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="256.0" layoutY="20.0" prefHeight="35.0" prefWidth="205.0" text="Wisteria Japonesa" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;Glicina o wisteria: características&#10;Estas son las principales características de la planta glicinia o wisteria:&#10;&#10;Puede escalar alturas de hasta 20 metros.&#10;Tiene grupos de flores o inflorescencias de hasta 1 metro.&#10;Vive hasta 100 años.&#10;Tiene hoja caduca.&#10;Tiene su origen en China y Japón.&#10;Sus vainas y semillas son tóxicas si se ingieren.&#10;&#10;Ubicación y clima para la glicina&#10;Para conocer bien los cuidados de la glicina o wisteria, hay que tener en cuenta que es una planta de clima templado. Puede llegar a soportar temperaturas altas de climas cálidos, pero en verano la planta sufrirá y puede necesitar de mayores atenciones. Las heladas, en cambio, sí puede soportarlas, siempre que no sean de gran intensidad.&#10;&#10;Sustrato o suelo&#10;En este sentido, lo más importante es que la planta cuente con una gran profundidad de suelo, ya que su sistema radicular es muy extenso.&#10;&#10;Riego&#10;Las glicinias pueden sobrevivir a periodos de sequía, pero si queremos hacer bien los distintos aspectos de los cuidados de la glicina o wisteria y que, así, estas plantas trepadoras den una floración abundante, entonces será necesario regarlas con frecuencia en los meses cálidos.&#10;&#10;Genero:Glicinas&#10;" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/wisteriajapan.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

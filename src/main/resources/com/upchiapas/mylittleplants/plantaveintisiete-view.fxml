@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintisieteController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="256.0" layoutY="20.0" prefHeight="35.0" prefWidth="172.0" text="Flor de Jazmin" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y matenimiento?&#10;riego&#10;El jazmín requiere de tener el suelo o sustrato casi permanentemente húmedo, pero no encharcado, en los meses cálidos. Es mejor regar con una frecuencia alta y en menor cantidad, y si la maceta tiene un plato debajo, asegúrate de retirar el agua sobrante unos 10 o 15 minutos después de haberla regado. &#10;&#10;&#10;abono&#10;Si usas una buena cantidad de humus de lombriz en la base del sustrato ya habrás aportado una buena cantidad de nutrientes a la planta.&#10;&#10;hojas amarillas&#10;Si a tu jazmín tiene las hojas amarillas lo más probable es que se deba a que estás regándolo demasiado, o a que el sustrato no ofrece suficiente drenaje. Si se da el caso, espacia los riegos o trasplántalo, preparando una mezcla con un mejor drenaje. También puede ocurrir que esté falto de nutrientes.&#10;&#10;1. La luz, clave en los cuidados del jazmín&#10;2. La temperatura, un detalle menor en su cultivo.&#10;3. El riego, abundante en meses de primavera y verano.&#10;4. El suelo, otro aspecto poco importante.&#10;5. El drenaje, fundamental en cómo cuidar el jazmín.&#10;6. El abonado, regular en meses de floración.&#10;7. Los tutores, importantes para su estética.&#10;&#10;Genero:Jasminum" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/jazmin.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

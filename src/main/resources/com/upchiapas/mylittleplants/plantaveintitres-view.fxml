@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeintitresController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="187.0" layoutY="20.0" prefHeight="35.0" prefWidth="226.0" text="Magnolia de Noche" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea editable="false" layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;La Magnolia es un grupo de arbustos y árboles provenientes en su mayoría de países&#10;asiáticos, y algunas zonas de América. Los árboles se desarrollan tanto en altura como en su&#10;ancho, y además muchas de sus ramas crecen desde las partes bajas del tronco por lo que con&#10;el peso de la flor y las hojas puede hacer que las ramas toquen el piso. Esto, sumado a que&#10;muchos pierden sus hojas antes de la floración, hace que el crecimiento de césped o cualquier&#10;otra planta alrededor del tronco sea muy difícil por la falta de luz y ventilación.&#10;Las Magnolias poseen una floración abundante y generalmente fragante, y eso es algo que&#10;genera una gran atracción hacia esta especie.&#10;Hay una gran variedad de especies, pero dependiendo de la misma, las Magnolias pueden ser&#10;Perennes, semi-perennes, o caducas.&#10;Una de las dificultades del cultivo, es que las hojas de muchas especies caen fácilmente y&#10;generan una alfombra de hojas en el suelo, pero también son una fuente de nutrientes para el&#10;árbol a medida que se van descomponiendo.&#10;La mayoría de las especies de Magnolia son de suelo neutro o levemente ácido y prefieren&#10;tener la zona alrededor del tronco medianamente húmeda. Los ejemplares jóvenes deben&#10;mantenerse muy bien regados hasta que se asienten. Toleran temperaturas bastante bajas&#10;pero no mucho más allá de los 0 grados. Las heladas y las nevadas pueden quemar los&#10;botones florales y arruinar los mismos.&#10;&#10;Genero:Magnolia .L" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="202.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/magnolia.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

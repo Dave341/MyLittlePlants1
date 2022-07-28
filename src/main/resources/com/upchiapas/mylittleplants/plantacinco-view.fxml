@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaCincoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="253.0" layoutY="20.0" prefHeight="17.0" prefWidth="95.0" text="Tomate" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar tomate?&#10;1. Cultívalo en un clima templado. El clima adecuado&#10; para el cultivo y desarrollo del tomate depende de &#10;forma conjunta de tres factores muy importantes&#10;-Temperatura.&#10;-humedad&#10;-luz&#10;&#10;2. Plántalo en un suelo que drene bien. El tomate &#10;exige de suelos con buen drenaje, de textura suelta y &#10;un poco arcillosa&#10;&#10;3. Abónalo en suelos con CO2. El abonado en el tomate&#10; necesita de altas cantidades de CO2 para acelerar el&#10; crecimiento de la planta.&#10;&#10;4. Riego o fertirrigación. En el cultivo del tomate el riego&#10; se realiza por goteo, mediante el cual lleva a cabo&#10; también la fertilización. &#10;&#10;5. Realiza una poda de formación. La poda es&#10; imprescindible en el cuidado y cultivo del tomate, &#10;ya que ayuda a mejorar el aireamiento de la tomatera&#10; y hace que se desarrolle más fuerte. &#10;&#10;6. No te olvides de los cuidados adicionales. El tomate&#10; necesita de unos cuidados en concreto, además de la&#10; poda, para garantizar su buen desarrollo.&#10;-aporcado&#10;-tutorado&#10;-destallado&#10;-deshojado&#10;" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="193.0" layoutX="12.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/tomate.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="160.0" layoutY="423.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

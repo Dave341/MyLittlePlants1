@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.BusquedaController">
+   <children>
+      <AnchorPane prefHeight="80.0" prefWidth="401.0" style="-fx-background-color: #000;">
+         <children>
+            <Button fx:id="btnhome" layoutX="311.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#btnhomeOnMouseClicked" style="-fx-background-color: #0000;" text="Home" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="143.0" layoutY="27.0" text="Buscar Planta" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="80.0" fitWidth="110.0" layoutX="3.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="135.0" layoutY="151.0" text="Planta Buscada:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="buscar" alignment="TOP_LEFT" layoutX="11.0" layoutY="195.0" prefHeight="200.0" prefWidth="380.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnagregar" layoutX="317.0" layoutY="427.0" mnemonicParsing="false" onMouseClicked="#btnagregarOnMouseClicked" style="-fx-background-color: #ffffffff; -fx-background-radius: 10px;" text="agregar" />
+      <Button fx:id="btnbuscar" layoutX="257.0" layoutY="427.0" mnemonicParsing="false" onMouseClicked="#btnbuscarOnMouseClicked" style="-fx-background-color: #ffffff; -fx-background-radius: 10px;" text="Buscar" />
+      <TextField fx:id="txtbuscar" layoutX="28.0" layoutY="427.0" prefHeight="25.0" prefWidth="214.0" promptText="Ingrese el nombre de la Planta" style="-fx-background-radius: 10px;" />
+   </children>
+</AnchorPane>

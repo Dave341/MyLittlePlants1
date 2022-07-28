@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaVeinticincoController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="256.0" layoutY="20.0" prefHeight="35.0" prefWidth="88.0" text="Onagra" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar?&#10;Ubicación&#10;Lo ideal es que esté a pleno sol, pero puede crecer en semisombra siempre y cuando la zona sea luminosa (es decir, que haya más luz que sombra).&#10;&#10;Tierra&#10;No es exigente, sin embargo aconsejamos lo siguiente:&#10;&#10;Maceta: mezcla sustrato universal con perlita a partes iguales. Puedes conseguir el primero aquí y la segunda por aquí.&#10;Jardín: crece muy bien en suelos fértiles y con buen drenaje. En el caso de que el tuyo tenga mucha tendencia a compactarse o que tenga muy mala capacidad de absorción y filtración del agua, haz un agujero de plantación de unos 50 x 50cm, cubre sus lados con una malla de sombreo, pon después una capa de unos 5cm de gravilla fina (de unos 3-5mm) o arlita (en venta aquí), y por último termina de rellenar con la mezcla de sustratos mencionada antes.&#10;Riego&#10;Más bien escaso. Es una planta que teme el exceso de humedad, y que por contra resiste relativamente bien la sequía. Para evitar correr riesgos innecesarios, comprueba la humedad de la tierra antes de regar, al menos las primeras veces.&#10;&#10;Puedes hacerlo con el clásico palito (si al sacarlo sale limpio, tocará regar), o si tienes tu onagra en maceta, pesándola una vez regada y de nuevo al cabo de unos días.&#10;&#10;Genero: Onagras" wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="205.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/Onagra.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

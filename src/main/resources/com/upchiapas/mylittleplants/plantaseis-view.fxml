@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaSeisController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="253.0" layoutY="20.0" prefHeight="17.0" prefWidth="95.0" text="Papa" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar una papa?&#10;1.Cultívala en un clima templado.&#10;&#10;2.-No la plantes en suelos muy compactos:&#10;°En terrenos con exceso de humedad los tubérculos&#10; son blandos y con poco sabor.&#10;°En los terrenos secos el rizoma se alarga demasiado&#10; y aumenta el número de tubérculos, pero disminuye&#10; su tamaño.&#10;&#10;3.- Expón la patata a la luz.&#10;&#10;4.- Realiza los diferentes tipos de abonado:&#10;   °Abono orgánico.&#10;   °Abono nitrogenado.&#10;   °Abono rico en fósforo.&#10;   °Abono rico en potasio.&#10;&#10;5. Riégala con el riego por aspersión.&#10;6.- Realiza las diversas labores de cultivo:&#10;  °Preparación del terreno.&#10;  °El acolchado.&#10;  °La época de plantación.&#10;  °La siembra.&#10;  °La escarada.&#10;¿De que partes esta compuesta la papa?&#10;  -Raíces&#10;  -Tallos&#10;  -Rizomas&#10;  -Tuberculos&#10;  -Hojas&#10;  -Flores&#10;  -Frutos&#10;genero: salanum&#10;&#10;&#10;" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="193.0" layoutX="12.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/papa.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaOnceController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="232.0" layoutY="20.0" prefHeight="35.0" prefWidth="137.0" text="Flor de Loto" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="Características de la flor de loto&#10;La flor de loto es una planta acuática rizomatosa, que tiene las siguientes características:  &#10;&#10;Tallos: muy largos, que pueden alcanzar hasta 1 metro de longitud. &#10;Hojas: tiene unas hojas de color verde azulado de diferentes tamaños, formas y cantidades en cada planta. Las que están bajo el nivel del agua son escasas y pequeñas, mientras que las que sobresalen al exterior son grandes, circulares y mucho más numerosas. &#10;Flores: blancas, rosas, azules, rojas, amarillas o bicolores, sus flores también son de tamaño considerable y se mantienen erguidas sobre unos largos tallos.&#10;Frutos: esta planta también tiene unos frutos de forma cónica. &#10;&#10;¿En qué se distingue del nenúfar?&#10;De aspecto muy similar a los nenúfares, la diferencia entre ambas plantas es que las flores y hojas del nenúfar flotan sobre el agua mientras que las del loto son aéreas y se elevan por encima de ésta. &#10;&#10;Tipos de flores de loto&#10;Las nelumbonáceas se dividen en dos grandes grupos: &#10;&#10;1. Nelumbo nucífera&#10;Es originario de Asia donde recibe el nombre de loto sagrado. Su principal característica es el gran tamaño de sus hojas y flores. Las primeras pueden llegar a medir 60 centímetros de diámetro, mientras que las segundas, de color rosa o blanco, pueden alcanzar con facilidad 23 centímetros&#10;&#10;2. Nelumbo lutea o loto americano&#10;Tiene unas flores amarillas con pétalos cóncavos más pequeñas que las nucíferas.&#10;&#10;Además,algunas variedades de flor de loto son las siguientes:&#10;&#10;🌱  Baby Doll&#10;Tiene flores de color blanco que florecen hasta bien entrado el otoño. Su tamaño permite cultivarlas en macetas grandes. &#10;&#10;🌱  Friendship&#10;Sus hojas pueden llegar a los 80 centímetros de diámetro. En sus tallos de más de 2 metros florecen unas grandes flores de color rosado&#10;&#10;🌱 Nico&#10;Esta variedad ofrece unas flores de color rosa intenso. &#10;&#10;🌱  Mili Malén&#10;Las flores de esta variedad son de un rosado suave con bordes de un tono más intenso.  &#10;&#10;🌱  The Queen &#10;Esta variedad tiene un delicado color crema y corona un tallo de 1,80 metros.&#10;&#10;Cuidados del Nelumbo Nucifera &#10;🌷 Dónde crece&#10;A pesar de su procedencia asiática, la flor de loto es una planta de fácil cultivo que se adapta a cualquier estanque o alberca. &#10;&#10;🌷 Cuándo florece&#10;El loto florece a finales de primavera y sus flores duran hasta los últimos días del verano. &#10;&#10;🌷 Cómo cuidar la flor de loto&#10;No es necesario regarla, pero conviene añadir al estanque agua tibia, sobre todo en invierno, para evitar que el agua sobre la que se desarrolla se enfríe en exceso. &#10;Para que el loto se desarrolle sin problemas debe estar situada en zona soleada para que además de realizar la fotosíntesis, oxigene el agua del estanque.&#10;El estanque no debe tener esquinas ni agujeros para evitar que las raíces de la planta se introduzcan en ellos.&#10;Además, el terreno debe tener al menos 15 centímetros de profundidad. &#10;🌷 Cómo se cultiva&#10;El cultivo de la flor de loto se realiza por semillas o por división. En el primer caso las semillas se introducen en el sustrato del fondo del estanque. La segunda opción se lleva a cabo a partir de la división de un rizoma. &#10;&#10;¿Cuáles son su propiedades y para qué se utiliza?&#10;La flor de loto se ha utilizado (especialmente en infusión) para aliviar algunas dolencias:&#10;&#10;Insolación&#10;Diarrea&#10;Disentería&#10;Hemorroides&#10;Mareos y vómitos&#10;Hipertensión&#10;Fiebre&#10;Problemas urinarios.&#10;Inflamación de los tejidos&#10;Enfermedades de la piel&#10;¡Ojo! No se considera adecuada para personas con diabetes, ni se aconseja a embarazadas ni madres que estén dando el pecho a su bebé." wrapText="true" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/img/nenufar.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="155.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

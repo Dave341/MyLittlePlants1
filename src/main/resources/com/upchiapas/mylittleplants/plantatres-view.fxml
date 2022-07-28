@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="561.0" prefWidth="600.0" style="-fx-background-color: #00796B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.mylittleplants.controllers.PlantaTresController">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="253.0" layoutY="20.0" prefHeight="17.0" prefWidth="95.0" text="Rabano" textFill="#06d08c">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="112.0" layoutX="25.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="247.0" layoutY="116.0" prefHeight="361.0" prefWidth="336.0" text="¿Como cuidar y cultivar un rabano?&#10;1. Cultivarlo en un clima templado. El rábano es una&#10; planta que se cultiva mejor en climas templados, &#10; aunque no excesivamente calurosos.&#10;&#10;2.. Cuídalo en suelos con poca salinidad. La planta de &#10;rábano se adapta a cualquier tipo de suelo, aunque se da&#10; mejor en suelos profundos y sin salinidad. &#10;&#10;3. Riégalo con riego por goteo. Los rábanos son muy&#10; sensibles a la falta de riego&#10;&#10;4. Plántalo en el momento adecuado. La fecha más &#10;adecuada para plantar rábanos es desde comienzos de&#10; la primavera hasta octubre.&#10;&#10;5.- Abono: Elige un fertilizante para el abonado de la&#10; sandía, optando por fertilizantes básicos o fertilizantes&#10; líquidos&#10;&#10;6. Cultivo: El mejor momento para la plantación de la&#10; sandía es justo después del inverno, así se desarrollará &#10;mejor en los meses de más calor.&#10;°Plantación en semillero. Haz 3 o 4 agujeros y coloca en&#10; cada uno una semilla, siempre dejando unos &#10;centímetros&#10; de distancia entre cada una para que se puedan&#10; desarrollar mejor sus raíces.&#10;°Plantación directa sobre el terreno de cultivo.&#10; Esta técnica precisa de mucha habilidad, ya que la&#10; planta se encuentra en un momento delicado del&#10; desarrollo.&#10;&#10;genero: paphanus" />
+      <AnchorPane layoutX="21.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="193.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/rabano.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="50.0" layoutY="424.0" mnemonicParsing="false" onMouseClicked="#btnAgregarOnMouseClicked" style="-fx-background-color: #000;" text="Agregar " textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="11.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/iconcarrito.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="149.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClicked" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: #000;" text="Atras" textFill="#06d08c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
